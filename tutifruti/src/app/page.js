@@ -1,11 +1,5 @@
 "use client"
 import { Navbar } from './navbar.js';
-import { Home } from '../../../../tutifruti/src/pages/home.js';
-import { About } from '../../../../tutifruti/src/pages/about.js';
-import { Media } from '../../../../tutifruti/src/pages/media.js';
-import { Contact } from '../../../../tutifruti/src/pages/contact.js';
-import { Shop } from '../../../../tutifruti/src/pages/shop.js';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 
 function App() {
