@@ -1,31 +1,40 @@
 import React from 'react';
-import { Navbar } from '../navbar';
+import { Navbar } from '../components/navbar';
+import { Footer } from '../components/footer';
+import Image from 'next/image';
 
-export default function Contact () {
+//style={{backgroundImage: './tutifruti/public/skaterguy.png',}}
+
+export default function Contact() {
     return (
         <>
-        <Navbar />
-        <div class="bg-lightblue">
-            <h1 class="text-4xl text-center">Contact Us</h1>
-            <div class="container mx-auto flex justify-center">
-                <form>
-                    <label for="name">Name:</label><br></br>
-                    <input type="text" id="name" name="name"></input>
-                    <br></br>
-                    <label for="mail">Email</label><br></br>
-                    <input type="email" id="mail" name="mail"></input>
-                    <br></br>
-                    <label for="subj">Subject:</label><br></br>
-                    <input type="text" id="subj" name="subj"></input>
-                    <br></br>
-                    <label for="message">Message:</label>
-                    <br></br>
-                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
-                    <br></br>
-                    <input type="submit" value="Submit" class="border-2 border-black hover:border-darkblue"></input>
-                </form>
+            <div class="bg-lightblue bg-contain bg-no-repeat bg-skaterguy bg-right">
+                <Navbar />
+                <div class="min-h-screen">
+                    <h1 class="text-4xl mt-2 text-center">Contact Us</h1>
+                    <div class="container mx-auto flex justify-center">
+                        <form class="flex-col text-white" action="mailto:faithytest@yopmail.com">
+                            <label for="name">NAME</label><br></br>
+                            <input class="w-full mb-2 text-black px-1" type="text" id="name" name="name"></input>
+                            <br></br>
+                            <label for="mail">EMAIL</label><br></br>
+                            <input class="w-full mb-2 text-black px-1" type="email" id="mail" name="mail" required></input>
+                            <br></br>
+                            <label for="subj">SUBJECT</label><br></br>
+                            <input class="w-full mb-2 text-black px-1" type="text" id="subj" name="subj"></input>
+                            <br></br>
+                            <label for="message">MESSAGE</label>
+                            <br></br>
+                            <textarea class="mb-2 text-black" id="message" name="message" rows="4" cols="50" required></textarea>
+                            <br></br>
+                            <div class="w-full flex justify-center text-black px-1">
+                            <input type="submit" value="SEND" class="border-2 border-black px-1 rounded hover:border-darkblue"></input>
+                            </div>                        
+                        </form>
+                    </div>
+                </div>
+                <Footer />
             </div>
-        </div>
         </>
     )
 };

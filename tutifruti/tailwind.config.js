@@ -18,6 +18,9 @@ module.exports = {
       'black' : '#0f0a0a',
     },
     extend: {
+      backgroundImage: {
+        'skaterguy': "url('/skaterguy.png')",
+      }
     },
   },
   plugins: [],

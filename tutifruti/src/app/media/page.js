@@ -1,13 +1,15 @@
 import React from 'react';
-import { Navbar } from '../navbar';
+import { Navbar } from '../components/navbar';
+import { Footer } from '../components/footer';
 
-export default function Media () {
+export default function Media() {
     return (
         <>
-        <Navbar />
-        <div>
-            <h1>Media B)</h1>
-        </div>
+            <Navbar />
+            <div>
+                <h1>Media B)</h1>
+            </div>
+            <Footer />
         </>
     )
 };
