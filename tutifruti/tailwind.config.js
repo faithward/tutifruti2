@@ -20,6 +20,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'skaterguy': "url('/skaterguy.png')",
+      },
+      backgroundSize: {
+        '3/4': '75%',
+        '1/2': '50%',
       }
     },
   },

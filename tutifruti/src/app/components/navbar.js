@@ -12,13 +12,13 @@ export const Navbar = () => {
         <Link class="hover:shadow-darkblue transition-opacity cursor-pointer w-1/6" href="/"><Image src="/tfblack.png" alt="logo" width={200} height={100} /></Link>
         <div class="w-full flex justify-center">
         <ul class="flex items-center gap-5">
-          <li><Link class="hover:text-darkblue transition-colors" href="/about">About Us</Link></li>
-          <li><Link class="hover:text-darkblue transition-colors" href="/contact">Contact</Link></li>
-          <li><Link class="hover:text-darkblue transition-colors" target="blank" href="https://tutifruti.bigcartel.com">Shop</Link></li>
-          <li><Link class="hover:text-darkblue transition-colors" target="blank" href="https://www.instagram.com/tutifruti.sk8/"><Image src="/instagram.svg" alt="Instagram" width={30} height={30} /></Link></li>
+          <li><Link class="hover:text-darkblue transition-colors font-mono" href="/about">About Us</Link></li>
+          <li><Link class="hover:text-darkblue transition-colors font-mono" href="/contact">Contact</Link></li>
+          <li><Link class="hover:text-darkblue transition-colors font-mono" target="blank" href="https://tutifruti.bigcartel.com">Shop</Link></li>
         </ul>
         </div>
-      <div class="w-1/6"></div>
+      <div class="w-1/6 flex justify-end">
+        <Link class="hover:text-darkblue transition-colors font-mono pr-1" target="blank" href="https://www.instagram.com/tutifruti.sk8/"><Image src="/instagram.svg" alt="Instagram" width={30} height={30} /></Link></div>
       </div>
     </nav>
   );
