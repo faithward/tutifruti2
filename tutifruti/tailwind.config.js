@@ -20,10 +20,16 @@ module.exports = {
     extend: {
       backgroundImage: {
         'skaterguy': "url('/skaterguy.png')",
+        'blueSquare': "url('/gallery/blueshape.svg')",
+        'sendbutton': "url('/sendbutton.svg')",
       },
       backgroundSize: {
         '3/4': '75%',
         '1/2': '50%',
+      },
+      fontFamily: {
+        'tutifruti' : ["TUTIFRUTI", "cursive"],
+        'default' : ["Helvetica"]
       }
     },
   },

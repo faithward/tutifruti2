@@ -11,10 +11,10 @@ export const Navbar = () => {
       <div class="h-24 mx-auto px-5 flex items-center w-full">
         <Link class="hover:shadow-darkblue transition-opacity cursor-pointer w-1/6" href="/"><Image src="/tfblack.png" alt="logo" width={200} height={100} /></Link>
         <div class="w-full flex justify-center">
-        <ul class="flex items-center gap-5">
-          <li><Link class="hover:text-darkblue transition-colors font-mono" href="/about">About Us</Link></li>
-          <li><Link class="hover:text-darkblue transition-colors font-mono" href="/contact">Contact</Link></li>
-          <li><Link class="hover:text-darkblue transition-colors font-mono" target="blank" href="https://tutifruti.bigcartel.com">Shop</Link></li>
+        <ul class="flex body-font items-center gap-5">
+          <li><Link class="hover:text-darkblue font-tutifruti transition-colors text-lg" href="/about">About Us</Link></li>
+          <li><Link class="hover:text-darkblue font-tutifruti transition-colors text-lg" href="/contact">Contact</Link></li>
+          <li><Link class="hover:text-darkblue font-tutifruti transition-colors text-lg" href="/shop">Shop</Link></li>
         </ul>
         </div>
       <div class="w-1/6 flex justify-end">
