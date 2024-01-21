@@ -8,7 +8,7 @@ export default function What() {
     return (
         <div className='bg-white min-h-screen'>
             <Navbar />
-            <div className='w-100 h-screen'>
+            <div className='w-100 h-full'>
                 <div className='w-full flex flex-col bg-yellow mx-auto justify-center p-6'>
                     <h1 className="text-5xl my-8 text-center font-tutifruti">What We Do</h1>
                     <div className='w-3/4 h-full text-center mx-auto gap-12 grid grid-cols-3 grid-rows-1'>
@@ -25,7 +25,13 @@ export default function What() {
                             <p className='p-4'>We value integrity, education, and inclusivity, by providing opportunities to participate, learn, and collaborate with your local skate and art communities.</p>
                         </div>
                     </div>
-                    <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60}/></Link>
+                    <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60} /></Link>
+                </div>
+                <div id="photoSection" className="grid grid-rows-2 h-screen grid-cols-2 gap-4 m-4">
+                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/skatergirl.jpg" fill /></div>
+                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/painting2.jpg" fill /></div>
+                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/class.png" fill /></div>
+                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/helmet.png" fill /></div>
                 </div>
             </div>
             <Footer />
