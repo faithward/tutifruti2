@@ -27,11 +27,31 @@ export default function What() {
                     </div>
                     <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60} /></Link>
                 </div>
-                <div id="photoSection" className="grid grid-rows-2 h-screen grid-cols-2 gap-4 m-4">
-                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/skatergirl.jpg" fill /></div>
-                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/painting2.jpg" fill /></div>
-                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/class.png" fill /></div>
-                    <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/helmet.png" fill /></div>
+                <div id="photoSection" className="grid grid-rows-4 min-h-screen grid-cols-3 gap-4 m-4">
+                    <div className="row-span-1 col-span-1 relative block">
+                        <Image className="object-cover" src="/gallery/skatergirl.jpg" fill />
+                    </div>
+                    <div className="row-span-1 col-span-2 relative block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lacus urna. Nunc sollicitudin tristique arcu ac mollis. Sed ultricies, mauris id pellentesque imperdiet, ante nunc pretium lacus, ullamcorper volutpat lacus purus non lacus. Quisque et sollicitudin lectus, eget interdum odio. Fusce tortor magna, tristique eu eleifend in, tristique ac est. Vestibulum a velit eu nunc laoreet fermentum. Praesent at velit quam. Maecenas finibus vehicula elit at porttitor. Duis nulla nulla, molestie a ante vel, sollicitudin ultrices ex.</p>
+                    </div>
+                    <div className="row-span-1 col-span-2 relative block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lacus urna. Nunc sollicitudin tristique arcu ac mollis. Sed ultricies, mauris id pellentesque imperdiet, ante nunc pretium lacus, ullamcorper volutpat lacus purus non lacus. Quisque et sollicitudin lectus, eget interdum odio. Fusce tortor magna, tristique eu eleifend in, tristique ac est. Vestibulum a velit eu nunc laoreet fermentum. Praesent at velit quam. Maecenas finibus vehicula elit at porttitor. Duis nulla nulla, molestie a ante vel, sollicitudin ultrices ex.</p>
+                    </div>
+                    <div className="row-span-1 col-span-1 relative block">
+                        <Image className="object-cover" src="/gallery/painting2.jpg" fill />
+                    </div>
+                    <div className="row-span-1 col-span-1 relative block">
+                        <Image className="object-cover" src="/gallery/class.png" fill />
+                    </div>
+                    <div className="row-span-1 col-span-2 relative block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lacus urna. Nunc sollicitudin tristique arcu ac mollis. Sed ultricies, mauris id pellentesque imperdiet, ante nunc pretium lacus, ullamcorper volutpat lacus purus non lacus. Quisque et sollicitudin lectus, eget interdum odio. Fusce tortor magna, tristique eu eleifend in, tristique ac est. Vestibulum a velit eu nunc laoreet fermentum. Praesent at velit quam. Maecenas finibus vehicula elit at porttitor. Duis nulla nulla, molestie a ante vel, sollicitudin ultrices ex.</p>
+                    </div>
+                    <div className="row-span-1 col-span-2 relative block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lacus urna. Nunc sollicitudin tristique arcu ac mollis. Sed ultricies, mauris id pellentesque imperdiet, ante nunc pretium lacus, ullamcorper volutpat lacus purus non lacus. Quisque et sollicitudin lectus, eget interdum odio. Fusce tortor magna, tristique eu eleifend in, tristique ac est. Vestibulum a velit eu nunc laoreet fermentum. Praesent at velit quam. Maecenas finibus vehicula elit at porttitor. Duis nulla nulla, molestie a ante vel, sollicitudin ultrices ex.</p>
+                    </div>
+                    <div className="row-span-1 col-span-1 relative block">
+                        <Image className="object-cover" src="/gallery/helmet.png" fill />
+                    </div>
                 </div>
             </div>
             <Footer />
