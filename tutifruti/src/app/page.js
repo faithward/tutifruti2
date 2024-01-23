@@ -24,7 +24,7 @@ function App() {
           <br></br>
           <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60} /></Link>
         </div>
-        <p className='mx-auto text-xl w-1/2 text-center font-bold p-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nibh sit amet turpis egestas imperdiet. Fusce eget dolor ipsum. Pellentesque sodales tempus volutpat. Phasellus ut lectus eros. Praesent eget nunc at sem lacinia rhoncus. Sed sed mi tempor lacus vehicula lacinia. Nam venenatis urna vel maximus.</p>
+        <p className='mx-auto text-xl w-1/2 text-center text-black font-bold p-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nibh sit amet turpis egestas imperdiet. Fusce eget dolor ipsum. Pellentesque sodales tempus volutpat. Phasellus ut lectus eros. Praesent eget nunc at sem lacinia rhoncus. Sed sed mi tempor lacus vehicula lacinia. Nam venenatis urna vel maximus.</p>
       </div>
       <Footer />
     </div>
