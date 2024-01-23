@@ -9,24 +9,22 @@ function App() {
   return (
     <div className="bg-white">
       <Navbar />
-      <div className="min-h-screen bg-white grid grid-cols-1">
-        <div id="topSection" className="grid grid-cols-5 grid-rows-1 h-fit">
-          <div className="col-span-3 bg-blueSquare bg-no-repeat rounded-lg h-fit m-4 p-4 grid grid-cols-1 justify-center">
-            <h1 className="text-center text-3xl pb-1 pt-2 font-tutifruti">What We Do</h1>
-            <p className="font-default text-lg mx-1 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lacus urna. Nunc sollicitudin tristique arcu ac mollis. Sed ultricies, mauris id pellentesque imperdiet, ante nunc pretium lacus, ullamcorper volutpat lacus purus non lacus. Quisque et sollicitudin lectus, eget interdum odio. Fusce tortor magna, tristique eu eleifend in, tristique ac est. Vestibulum a velit eu nunc laoreet fermentum. Praesent at velit quam. Maecenas finibus vehicula elit at porttitor. Duis nulla nulla, molestie a ante vel, sollicitudin ultrices ex.</p>
-            <p className="font-default text-lg mx-1 pb-3 text-center">Vivamus justo mi, pulvinar ornare feugiat sit amet, ornare vitae libero. Mauris sagittis dapibus felis, vel tincidunt tortor elementum tincidunt. Aliquam nec metus et justo malesuada viverra ac eget ante.</p>
-            <Link className="md:w-1/6 w-1/4 mx-auto mb-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><img alt="support us" src="supportusbutton.svg"></img></Link>
-          </div>
-          <div className="col-span-2 h-100 m-4 relative block z-0">
-            <Image className="object-cover" alt="first picture" src="/pic1.png" priority fill />
-          </div>
+      <div className="min-h-screen bg-white flex flex-col">
+        <div className='w-full flex flex-col bg-skatergirl bg-no-repeat bg-cover bg-center mx-auto justify-center p-6'>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <h1 className="text-3xl backdrop-blur-sm my-8 mx-auto w-3/4 text-center text-white font-tutifruti">tutifruti promotes mental health and physical wellness in disenfranchised communities through skate and art.</h1>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60} /></Link>
         </div>
-        <div id="photoSection" className="grid grid-rows-2 h-screen grid-cols-2 gap-4 m-4">
-            <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/skatergirl.jpg" fill /></div>
-            <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/painting2.jpg" fill /></div>
-            <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/class.png" fill /></div>
-            <div className="row-span-1 col-span-1 relative block"><Image className="object-cover" src="/gallery/helmet.png" fill /></div>
-        </div>
+        <p className='mx-auto text-xl w-1/2 text-center p-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nibh sit amet turpis egestas imperdiet. Fusce eget dolor ipsum. Pellentesque sodales tempus volutpat. Phasellus ut lectus eros. Praesent eget nunc at sem lacinia rhoncus. Sed sed mi tempor lacus vehicula lacinia. Nam venenatis urna vel maximus.</p>
       </div>
       <Footer />
     </div>

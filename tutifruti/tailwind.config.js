@@ -22,6 +22,8 @@ module.exports = {
         'skaterguy': "url('/skaterguy.png')",
         'blueSquare': "url('/gallery/blueshape.svg')",
         'sendbutton': "url('/sendbutton.svg')",
+        'skatergirl' : "url('/gallery/skatergirl.jpg')",
+        'wpb' : "url('/gallery/wpb_clinic.png')"
       },
       backgroundSize: {
         '3/4': '75%',
