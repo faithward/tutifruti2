@@ -8,7 +8,7 @@ export default function What() {
     return (
         <div className='bg-white min-h-screen'>
             <Navbar />
-            <div className='w-100 h-full'>
+            <div className='w-100 h-full text-black'>
                 <div className='w-full flex flex-col bg-yellow mx-auto justify-center p-6'>
                     <h1 className="text-5xl my-8 text-center font-tutifruti">What We Do</h1>
                     <div className='w-3/4 h-full text-center mx-auto gap-12 grid grid-cols-3 grid-rows-1'>
