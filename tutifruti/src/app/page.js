@@ -24,7 +24,21 @@ function App() {
           <br></br>
           <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60} /></Link>
         </div>
-        <p className='mx-auto text-xl w-1/2 text-center text-black font-bold p-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nibh sit amet turpis egestas imperdiet. Fusce eget dolor ipsum. Pellentesque sodales tempus volutpat. Phasellus ut lectus eros. Praesent eget nunc at sem lacinia rhoncus. Sed sed mi tempor lacus vehicula lacinia. Nam venenatis urna vel maximus.</p>
+        <p className='mx-auto my-4 text-xl w-1/2 text-center text-black font-bold p-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nibh sit amet turpis egestas imperdiet. Fusce eget dolor ipsum. Pellentesque sodales tempus volutpat. Phasellus ut lectus eros. Praesent eget nunc at sem lacinia rhoncus. Sed sed mi tempor lacus vehicula lacinia. Nam venenatis urna vel maximus.</p>
+        <div className='font-tutifruti text-3xl w-full mx-auto justify-center mt-4 px-12 flex flex-row h-screen gap-8'>
+          <div className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
+            <h1>Community Skate Events</h1>
+            <div></div>
+          </div>
+          <div className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
+            <h1>Skate Clinic Sign Up</h1>
+            <div></div>
+          </div>
+          <div className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
+            <h1>Private Lessons</h1>
+            <div></div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
