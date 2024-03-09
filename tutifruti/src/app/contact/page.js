@@ -32,6 +32,7 @@ export default function Contact() {
                             </div>                        
                         </form>
                     </div>
+                    <h1 className="text-xl mt-4 text-center font-tutifruti">Or email us directly at tutifrutiskate@gmail.com</h1>
                 </div>
                 <Footer />
             </div>

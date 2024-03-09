@@ -25,7 +25,7 @@ export default function What() {
                             <p className='p-4'>We value integrity, education, and inclusivity, by providing opportunities to participate, learn, and collaborate with your local skate and art communities.</p>
                         </div>
                     </div>
-                    <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={120} height={60} /></Link>
+                    <Link className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={180} height={90} /></Link>
                 </div>
                 <div id="pair1" className="grid grid-rows-2 grid-cols-3 gap-4 m-4 min-h-screen">
                     <div className="row-span-1 col-span-1 relative block">
@@ -40,12 +40,12 @@ export default function What() {
                         <p className='text-xl'>We host free or low cost skate clinics (skateboarding and rollerskating) across South Florida. The focus of these clinics is to offer accessible coaching to our local community. The clinics are primarily for beginner level skaters, but we encourage anyone who wants to participate to show up as a participant or volunteer! All clinics are hosted at local skateparks  throughout Miami-Dade, Broward, and Palm Beach counties. Loaner gear is available for participants to borrow, and refreshments (water and snacks) are always part of our programming. Our clinics run for an average of 3 hours which include an hour of active coaching and 2 hours of open skate with coaches present as a resource.</p>
                     </div>
                     <div className="row-span-1 col-span-1 relative block">
-                        <Image className="object-cover" src="/gallery/painting2.jpg" fill />
+                        <Image className="object-cover" src="/gallery/skateflower.jpg" fill />
                     </div>
                 </div>
                 <div id="pair2" className="grid grid-rows-2 grid-cols-3 gap-4 m-4 min-h-screen">
                     <div className="row-span-1 col-span-1 relative block">
-                        <Image className="object-cover" src="/gallery/class.png" fill />
+                        <Image className="object-cover" src="/gallery/justice.png" fill />
                     </div>
                     <div className="row-span-1 col-span-2 relative block">
                     <h1 className='text-2xl underline underline-offset-4 font-tutifruti mb-2'>Community Events</h1>
@@ -56,7 +56,7 @@ export default function What() {
                         <p className='text-xl'>One of our main goals in Tutifruti is to encourage diverse coping mechanisms or emotional outlets, and creative art is an incredible way to learn valuable skills in mental health. We conduct low cost, accessible art workshops that teach unique techniques and mediums for all ages. From screenprinting to bookmaking, block printing to painting, we utilize the arts as a vehicle for emotional wellness, creative expression, and self-esteem.</p>
                     </div>
                     <div className="row-span-1 col-span-1 relative block">
-                        <Image className="object-cover" src="/gallery/helmet.png" fill />
+                        <Image className="object-cover" src="/gallery/juliapaints.jpg" fill />
                     </div>
                 </div>
                 <div id="pair3" className="grid grid-rows-2 grid-cols-3 gap-4 m-4 min-h-screen">
@@ -72,7 +72,7 @@ export default function What() {
                         <p className='text-xl'>Part of our work to promote the sport of skating involves municipal advocacy for skateable spaces and skateparks. We attend and speak at commission meetings and town halls whenever possible, to ensure cities and government officials are aware of the positive impacts of skateparks, keep existing ones open, and build more. Decriminalizing and destigmatizing skating is a central tenet of Tutifruti’s work, as it is vital for the sport to be accessible and free of judgment (whether from the law or from individuals) to provide full benefits to a community.</p>
                     </div>
                     <div className="row-span-1 col-span-1 relative block">
-                        <Image className="object-cover" src="/gallery/helmet.png" fill />
+                        <Image className="object-cover" src="/gallery/advocacy.jpg" fill />
                     </div>
                 </div>
             </div>
