@@ -23,7 +23,8 @@ module.exports = {
         'blueSquare': "url('/gallery/blueshape.svg')",
         'sendbutton': "url('/sendbutton.svg')",
         'skatergirl' : "url('/gallery/skatergirl.jpg')",
-        'wpb' : "url('/gallery/wpb_clinic.png')"
+        'wpb' : "url('/gallery/wpb_clinic.png')",
+        'haulover' : "url('/gallery/haulovergroup.jpg')"
       },
       backgroundSize: {
         '3/4': '75%',
