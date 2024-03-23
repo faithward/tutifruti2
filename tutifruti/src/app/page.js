@@ -16,7 +16,7 @@ function App() {
           <br></br>
           <br></br>
           <br></br>
-          <h1 className="text-3xl rounded-md backdrop-blur-md my-8 mx-auto w-1/2 text-center text-white font-tutifruti">tutifruti promotes mental health and physical wellness in disenfranchised communities through skate and art.</h1>
+          <h1 className="text-3xl rounded-md backdrop-blur-sm my-8 mx-auto w-3/4 text-center text-font font-tutifruti">tutifruti promotes mental health and physical wellness in disenfranchised communities through skate and art.</h1>
           <br></br>
           <br></br>
           <br></br>
@@ -26,24 +26,24 @@ function App() {
         </div>
         <p className='mx-auto my-4 text-xl w-3/4 text-center text-black font-bold p-4'>Welcome to Tutifruti, where we blend the vibrant worlds of skateboarding, rollerskating, and creative arts to champion the cause of mental health education and advocacy. We host a spectrum of experiences, from dynamic community events and creative art workshops to skate clinics and private lessons, igniting dialogues and fostering support networks. Tutifruti stands firm in embracing and empowering diverse demographics, especially women, girls, BIPOC, and LGBTQ+ individuals. Join us on this transformative journey, where every contribution fuels a brighter, more mentally resilient world!</p>
         <div className='font-tutifruti text-3xl w-full mx-auto justify-center mt-4 px-12 flex flex-row h-screen gap-8'>
-          <div className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
-            <h1>Community Skate Events</h1>
-            <div className='relative block h-5/6 m-2'>
-              <Image className="object-cover" src="/gallery/justice.png" fill />
-            </div>
-          </div>
-          <div className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
+            <Link href="/what/#events" className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
+              <h1>Community Events</h1>
+              <div className='relative block h-5/6 m-2'>
+                <Image className="object-cover" src="/gallery/justice.png" fill />
+              </div>
+          </Link>
+          <Link href="/what/#clinics" className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
             <h1>Skate Clinics</h1>
             <div className='relative block h-5/6 m-2'>
               <Image className="object-cover" src="/gallery/skateflower.jpg" fill />
             </div>
-          </div>
-          <div className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
+          </Link>
+          <Link href="/what/#privateLessons" className='text-center w-1/3 p-4 h-3/4 bg-lightblue'>
             <h1>Private Lessons</h1>
             <div className='relative block h-5/6 m-2'>
               <Image className="object-cover" src="/gallery/skatergirl.jpg" fill />
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <Footer />
