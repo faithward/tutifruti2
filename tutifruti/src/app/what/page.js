@@ -14,7 +14,7 @@ export default function What() {
                     <div className='w-3/4 h-full text-center mx-auto gap-12 grid grid-cols-3 grid-rows-1'>
                         <div className='col-span-1'>
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti'>Mission</h1>
-                            <p className='p-4 font-default'>To educate on and advocate for the importance of mental health through skateboarding, rollerskating, and creative arts.</p>
+                            <p className='p-4 font-nun'>To educate on and advocate for the importance of mental health through skateboarding, rollerskating, and creative arts.</p>
                         </div>
                         <div className='col-span-1'>
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti'>Vision</h1>
