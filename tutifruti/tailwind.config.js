@@ -32,7 +32,6 @@ module.exports = {
       },
       fontFamily: {
         'tutifruti' : ["TUTIFRUTI", "cursive"],
-        sans: ['var(--font-sans)', ...fontFamily.sans],
       }
     },
   },

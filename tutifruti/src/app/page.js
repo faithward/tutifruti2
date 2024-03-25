@@ -4,16 +4,8 @@ import { Footer } from './components/footer.js';
 import React from "react";
 import Image from 'next/image.js';
 import Link from 'next/link.js';
-import  { Nunito_Sans as Sans } from 'next/font/google/index.js';
 
 function App() {
-  
-  const sans = Sans({
-    subsets: ['latin'],
-    // this will be the css variable
-    variable: '--font-sans',
-  });
-
   return (
     <div className="bg-white">
       <Navbar />
