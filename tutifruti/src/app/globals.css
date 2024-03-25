@@ -7,6 +7,11 @@
   src: url("tutifrutifontver3.ttf");
 }
 
+@font-face {
+  font-family: NunitoSans;
+  src: url("NunitoSans.ttf");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
