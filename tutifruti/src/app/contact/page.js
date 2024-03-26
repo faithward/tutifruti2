@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Contact() {
     return (
         <>
-            <div className="bg-lightblue lg:bg-contain bg-cover bg-no-repeat bg-skaterguy bg-right-top">
+            <div className="bg-lightblue lg:bg-contain bg-cover bg-no-repeat bg-skaterguy bg-right-bottom">
                 <Navbar />
                 <div className="min-h-screen">
                     <h1 className="text-4xl mt-2 text-center font-tutifruti">Contact Us</h1>
@@ -32,7 +32,7 @@ export default function Contact() {
                             </div>                        
                         </form>
                     </div>
-                    <h1 className="text-xl mt-8 text-center font-tutifruti">Or email us directly at tutifrutiskate@gmail.com</h1>
+                    <h1 className="text-xl mt-8 text-center text-white font-tutifruti">Or email us directly at tutifrutiskate@gmail.com</h1>
                 </div>
                 <Footer />
             </div>
