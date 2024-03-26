@@ -1,9 +1,8 @@
 import './globals.css'
-import { Roboto } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 
-const roboto = Roboto(
+const nunito_sans = Nunito_Sans(
   {
-    weight: '400',
     subsets: ['latin']
   }
 )
@@ -19,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={nunito_sans.className}>{children}</body>
     </html>
   )
 }
