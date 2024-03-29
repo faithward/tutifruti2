@@ -24,7 +24,9 @@ module.exports = {
         'sendbutton': "url('/sendbutton.svg')",
         'skatergirl' : "url('/gallery/skatergirl.jpg')",
         'wpb' : "url('/gallery/wpb_clinic.png')",
-        'haulover' : "url('/gallery/haulovergroup.png')"
+        'haulover' : "url('/gallery/haulovergroup.png')",
+        'shop' : "url('/shop.png')",
+        'smallshop' : "url('/gallery/smallshop.png')"
       },
       backgroundSize: {
         '3/4': '75%',
