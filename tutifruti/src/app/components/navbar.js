@@ -11,7 +11,7 @@ export const Navbar = () => {
       <div className="h-24 mx-auto px-5 flex items-center w-full">
         <Link className="hover:shadow-darkblue transition-opacity cursor-pointer w-1/6" href="/"><Image src="/tfblack.png" alt="logo" width={200} height={100} /></Link>
         <div className="w-full flex justify-center">
-          <ul className="flex body-font items-center gap-5">
+          <ul className="flex body-font items-center gap-7">
           <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/what">What We Do</Link></li>
             <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/about">Our Team</Link></li>
             <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/contact">Contact</Link></li>
