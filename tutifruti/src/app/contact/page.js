@@ -10,7 +10,7 @@ export default function Contact() {
         <>
             <div className="bg-lightblue lg:bg-contain bg-cover bg-no-repeat bg-skaterguy bg-right-bottom">
                 <Navbar />
-                <div className="min-h-screen">
+                <div className="min-h-screen mt-8">
                     <h1 className="text-4xl mt-2 text-center font-tutifruti">Contact Us</h1>
                     <div className="container mx-auto flex justify-center">
                         <form className="text-white text-lg sm:w-1/2 w-3/4" action="mailto:faithytest@yopmail.com">
@@ -27,12 +27,12 @@ export default function Contact() {
                             <br></br>
                             <textarea className="mb-2 text-black w-full" id="message" name="message" rows="4" cols="50" required></textarea>
                             <br></br>
-                            <div className="flex justify-center text-black font-mono px-1">
-                            <input type="submit" value="SEND" className="border-2 border-black px-1 rounded hover:border-darkblue font-tutifruti"></input>
+                            <div className="flex justify-center text-black px-1">
+                            <input type="submit" value="SEND" className="border-2 border-black text-xl px-1 rounded hover:border-darkblue font-bold font-tutifruti"></input>
                             </div>                        
                         </form>
                     </div>
-                    <h1 className="text-xl mt-8 text-center text-white font-tutifruti">Or email us directly at tutifrutiskate@gmail.com</h1>
+                    <h1 className="text-2xl mt-10 text-center text-white font-tutifruti">Or email us directly at tutifrutiskate@gmail.com</h1>
                 </div>
                 <Footer />
             </div>

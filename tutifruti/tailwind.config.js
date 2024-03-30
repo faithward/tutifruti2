@@ -26,7 +26,10 @@ module.exports = {
         'wpb' : "url('/gallery/wpb_clinic.png')",
         'haulover' : "url('/gallery/haulovergroup.png')",
         'shop' : "url('/shop.png')",
-        'smallshop' : "url('/gallery/smallshop.png')"
+        'smallshop' : "url('/gallery/smallshop.png')",
+        'blue350' : "url('/gallery/blue350.png')",
+        'blue350B' : "url('/gallery/blue350B.png')",
+        'blue704' : "url('/gallery/blue704.png')"
       },
       backgroundSize: {
         '3/4': '75%',
@@ -37,6 +40,9 @@ module.exports = {
         'default' : ["Nunito_Sans", "sans-serif"]
       },
       height: {
+        '128': '32rem',
+      },
+      width: {
         '128': '32rem',
       }
     },

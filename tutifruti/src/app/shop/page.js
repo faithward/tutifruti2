@@ -9,7 +9,7 @@ export default function Shop() {
         <>
             <div className="bg-white min-h-screen">
                 <Navbar />
-                    <div className='h-screen w-full flex flex-col mx-auto'>
+                    <div className='h-screen flex flex-col mx-auto'>
                         <h1 className="text-4xl mt-2 text-center font-tutifruti">Shop</h1>
                         <div className='w-full h-1/2 lg:h-full bg-smallshop lg:bg-shop bg-no-repeat bg-contain bg-center mx-auto'></div>
                         <div className='flex mb-4 justify-center'>
