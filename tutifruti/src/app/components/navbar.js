@@ -9,13 +9,16 @@ export const Navbar = () => {
   return (
     <nav className="bg-opacity-40 sticky top-0 backdrop-filter backdrop-blur-lg z-10">
       <div className="h-24 mx-auto px-5 flex items-center w-full">
-        <Link className="hover:shadow-darkblue transition-opacity cursor-pointer w-1/6" href="/"><Image src="/tfblack.png" alt="logo" width={200} height={100} /></Link>
-        <div className="w-full flex justify-center">
-          <ul className="flex body-font items-center gap-7">
-          <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/what">What We Do</Link></li>
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/about">Our Team</Link></li>
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/contact">Contact</Link></li>
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-lg" href="/shop">Shop</Link></li>
+        <Link className="hover:shadow-darkblue transition-opacity flex gap-2 cursor-pointer w-1/6" href="/">
+          <Image className="hidden md:flex" src="/tfblack.png" alt="logo" width={200} height={100} />
+          <Image className="md:hidden" src="/strawb.png" alt="strawbaby" width={30} height={45} />
+        </Link>
+        <div className="w-4/6 flex justify-center">
+          <ul className="flex body-font text-center items-center gap-7">
+            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/what">What We Do</Link></li>
+            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/about">Our Team</Link></li>
+            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/contact">Contact</Link></li>
+            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/shop">Shop</Link></li>
           </ul>
         </div>
         <div className="w-1/6 flex justify-end">
