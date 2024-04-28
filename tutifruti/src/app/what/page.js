@@ -73,7 +73,7 @@ export default function What() {
                             <p className='text-xl'>Part of our work to promote the sport of skating involves municipal advocacy for skateable spaces and skateparks. We attend and speak at commission meetings and town halls whenever possible, to ensure cities and government officials are aware of the positive impacts of skateparks, keep existing ones open, and build more. Decriminalizing and destigmatizing skating is a central tenet of Tutifruti’s work, as it is vital for the sport to be accessible and free of judgment (whether from the law or from individuals) to provide full benefits to a community.</p>
                         </div>
                         <div className="order-3 md:order-4 row-span-1 col-span-1 relative block">
-                            <Image className="object-cover" src="/gallery/advocacy.jpg" fill />
+                            <Image className="object-cover" src="/gallery/advo.JPG" fill />
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,8 @@ module.exports = {
         'smallshop' : "url('/gallery/smallshop.png')",
         'blue350' : "url('/gallery/blue350.png')",
         'blue350B' : "url('/gallery/blue350B.png')",
-        'blue704' : "url('/gallery/blue704.png')"
+        'blue704' : "url('/gallery/blue704.png')",
+        'longBlue' : "url('/gallery/longBlue.svg')"
       },
       backgroundSize: {
         '3/4': '75%',
