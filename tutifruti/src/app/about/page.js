@@ -54,7 +54,7 @@ export default function About() {
                         <div className='relative h-5/6 w-5/6 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/olivia.JPG" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Olivia</p>
+                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Violet</p>
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-5/6 w-5/6 mx-auto'>
