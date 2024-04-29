@@ -37,60 +37,76 @@ export default function About() {
                     </div>
                 </div>
                 <h1 className='font-tutifruti text-3xl text-center mb-6'>Our Volunteers</h1>
-                <div id="volGrid" className='min-h-screen w-5/6 md:aspect-square mx-auto grid grid-cols-1 grid-rows-9 gap-4 md:grid-cols-3 md:grid-rows-3 mb-8'>
+                <div id="volGrid" className='min-h-screen w-5/6 md:aspect-square mx-auto grid grid-cols-1 grid-rows-9 gap-6 md:grid-cols-3 md:grid-rows-3 mb-8'>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/star.png" fill />
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
+                            <Image className="rounded-full object-cover" src="/volunteers/star.jpg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Star</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Star</p>
+                        <p className='mx-auto text-center text-xl'>Social Media Coordinator & Skate Coach</p>
+                        <p className='mx-auto text-center text-xl'>MIA, BRO, & WPB Counties</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/shirley.jpg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Shirley</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Shirley</p>
+                        <p className='mx-auto text-center text-xl'>Digital Photographer</p>
+                        <p className='mx-auto text-center text-xl'>Broward County</p>
                     </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/violet.JPG" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Violet</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Violet</p>
+                        <p className='mx-auto text-center text-xl'>Photographer</p>
+                        <p className='mx-auto text-center text-xl'>West Palm Beach County</p>
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/rozy.jpg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Rozy</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Rozy</p>
+                        <p className='mx-auto text-center text-xl'>West Palm Beach County</p>
                     </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/ashley.jpg" fill />
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
+                            <Image className="rounded-full object-cover" src="/volunteers/ashley.png" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Ashley</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ashley</p>
+                        <p className='mx-auto text-center text-xl'>Lead Skate Coach</p>
+                        <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
                     </div>
                     <div className='bg-darkblue aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/mari.jpeg" fill />
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
+                            <Image className="rounded-full object-cover" src="/volunteers/mari.png" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Mari</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Mari</p>
+                        <p className='mx-auto text-center text-xl'>Event & Program Facilitator</p>
+                        <p className='mx-auto text-center text-xl'>MIA, BRO, & WPB Counties</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/ailish.PNG" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Ailish</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ailish</p>
+                        <p className='mx-auto text-center text-xl'>Photographer</p>
                     </div>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/ana.JPG" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Ana</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ana</p>
+                        <p className='mx-auto text-center text-xl'>Event Facilitator</p>
+                        <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-5/6 w-5/6 mx-auto'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/faith.jpg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-1 text-2xl'>Faith</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
+                        <p className='mx-auto text-center text-xl'>Web Developer</p>
+                        <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
                     </div>
                 </div>
             </div>
