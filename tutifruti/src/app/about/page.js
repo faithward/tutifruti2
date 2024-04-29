@@ -105,7 +105,7 @@ export default function About() {
                             <Image className="rounded-full object-cover" src="/volunteers/faith.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
-                        <p className='mx-auto text-center text-xl'>Web Developer</p>
+                        <p className='mx-auto text-center text-xl'>Software Developer & Website Administrator</p>
                         <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
                     </div>
                 </div>
