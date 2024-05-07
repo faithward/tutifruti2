@@ -28,9 +28,9 @@ export default function What() {
                     <Link id="privateLessons" className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={180} height={90} /></Link>
                 </div>
                 <div id="pairs" className='px-8 py-4'>
-                    <div id="pair1" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-4 m-4 min-h-screen">
+                    <div id="pair1" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-6 m-4 min-h-screen">
                         <div className="order-1 row-span-1 col-span-1 relative block">
-                            <Image className="object-cover" src="/gallery/skatergirl.jpg" fill />
+                            <Image className="object-cover" src="/gallery/lesson.jpg" fill />
                         </div>
                         <div id="clinics" className="order-2 text-center md:text-left row-span-2 col-span-1 md:row-span-1 md:col-span-2 relative block">
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti mb-2'>Private Lessons</h1>
@@ -44,7 +44,7 @@ export default function What() {
                             <Image className="object-cover" src="/gallery/skateflower.jpg" fill />
                         </div>
                     </div>
-                    <div id="pair2" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-4 m-4 min-h-screen">
+                    <div id="pair2" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-6 m-4 min-h-screen">
                         <div className="order-1 row-span-1 col-span-1 relative block">
                             <Image className="object-cover" src="/gallery/justice.png" fill />
                         </div>
@@ -60,7 +60,7 @@ export default function What() {
                             <Image className="object-cover" src="/gallery/juliapaints.jpg" fill />
                         </div>
                     </div>
-                    <div id="pair3" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-4 m-4 min-h-screen">
+                    <div id="pair3" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-6 m-4 min-h-screen">
                         <div className="order-1 row-span-1 col-span-1 relative block">
                             <Image className="object-cover" src="/gallery/class.png" fill />
                         </div>

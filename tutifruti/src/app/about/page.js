@@ -36,77 +36,80 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <h1 className='font-tutifruti text-3xl text-center mb-6'>Our Volunteers</h1>
+                <h1 className='font-tutifruti text-4xl text-center mb-4'>Volunteers</h1>
+                <p className='mx-auto text-center text-md mb-8'>MIA = Miami | BRO = Broward | WPB = West Palm Beach</p>
                 <div id="volGrid" className='min-h-screen w-5/6 md:aspect-square mx-auto grid grid-cols-1 grid-rows-9 gap-6 md:grid-cols-3 md:grid-rows-3 mb-8'>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/star.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Star</p>
-                        <p className='mx-auto text-center text-xl'>Social Media Coordinator & Skate Coach</p>
-                        <p className='mx-auto text-center text-xl'>MIA, BRO, & WPB Counties</p>
+                        <p className='mx-auto text-center text-lg'>Social Media Coordinator & Skate Coach</p>
+                        <p className='mx-auto text-center text-lg'>MIA, BRO, & WPB</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/shirley.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Shirley</p>
-                        <p className='mx-auto text-center text-xl'>Digital Photographer</p>
-                        <p className='mx-auto text-center text-xl'>Broward County</p>
+                        <p className='mx-auto text-center text-lg'>Photographer</p>
+                        <p className='mx-auto text-center text-lg'>BRO</p>
                     </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/violet.JPG" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Violet</p>
-                        <p className='mx-auto text-center text-xl'>Photographer</p>
-                        <p className='mx-auto text-center text-xl'>West Palm Beach County</p>
+                        <p className='mx-auto text-center text-lg'>Photographer</p>
+                        <p className='mx-auto text-center text-lg'>WPB</p>
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/rozy.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Rozy</p>
-                        <p className='mx-auto text-center text-xl'>West Palm Beach County</p>
+                        <p className='mx-auto text-center text-lg'>Skate Coach</p>
+                        <p className='mx-auto text-center text-lg'>WPB</p>
                     </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/ashley.png" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ashley</p>
-                        <p className='mx-auto text-center text-xl'>Lead Skate Coach</p>
-                        <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
+                        <p className='mx-auto text-center text-lg'>Lead Skate Coach</p>
+                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
                     </div>
                     <div className='bg-darkblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/mari.png" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Mari</p>
-                        <p className='mx-auto text-center text-xl'>Event & Program Facilitator</p>
-                        <p className='mx-auto text-center text-xl'>MIA, BRO, & WPB Counties</p>
+                        <p className='mx-auto text-center text-lg'>Event & Program Facilitator</p>
+                        <p className='mx-auto text-center text-lg'>MIA, BRO, & WPB</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/ailish.PNG" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ailish</p>
-                        <p className='mx-auto text-center text-xl'>Photographer</p>
+                        <p className='mx-auto text-center text-lg'>Photographer</p>
+                        <p className='mx-auto text-center text-lg'>MIA</p>
                     </div>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/ana.JPG" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ana</p>
-                        <p className='mx-auto text-center text-xl'>Event Facilitator</p>
-                        <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
+                        <p className='mx-auto text-center text-lg'>Event & Program Facilitator</p>
+                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/faith.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
-                        <p className='mx-auto text-center text-xl'>Software Developer & Website Administrator</p>
-                        <p className='mx-auto text-center text-xl'>MIA & BRO Counties</p>
+                        <p className='mx-auto text-center text-lg'>Software Developer & Website Administrator</p>
+                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
                     </div>
                 </div>
             </div>
@@ -119,25 +122,25 @@ export default function About() {
  *                 <div className='grid grid-rows-1 grid-cols-4 my-2 mx-auto'>
                     <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6">
                         <h1 className="text-center text-2xl mt-2 font-tutifruti">ISA OSTOS</h1>
-                        <h4 className="text-center pb-3 text-xl font-tutifruti">President</h4>
+                        <h4 className="text-center pb-3 text-lg font-tutifruti">President</h4>
                         <p className="text-center text-sm pb-1 px-4 font-mono">Hi! I am Isa and I am a Colombian artist based in South Florida.  I have a Bachelors degree in Anthropology and International Affairs from Florida State University, and an MFA in Documentary Filmmaking from Northwestern University.</p>
                         <p className="text-center text-sm pb-2 px-4 font-mono">As the President of tutifruti, my vision is to maintain safe spaces for BIPOC, women/girls, and LGBTQ+ skaters where internal growth and physical wellness are encouraged and nurtured.</p>
                     </div>
                     <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6">
                         <h1 className="text-center text-2xl mt-2 font-tutifruti">ROMINA PALMERO</h1>
-                        <h4 className="text-center pb-3 text-xl font-tutifruti">Vice President</h4>
+                        <h4 className="text-center pb-3 text-lg font-tutifruti">Vice President</h4>
                         <p className="text-center text-sm pb-1 px-4 font-mono">I’m Romina, a Venezuelan artist raised in South Florida. I received a BA in Studio Art from Florida State University, with a focus on photography and printmaking. I am passionate about writing, bookmaking, film photography, mental health, and of course, skating!</p>
                         <p className="text-center text-sm pb-2 px-4 font-mono">As Vice President of tutifruti, I bring my academic experiences and life experiences to my work in order to lead with integrity, compassion, and intentionality.</p>
                     </div>
                     <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6">
                         <h1 className="text-center text-2xl mt-2 font-tutifruti">ROMINA PALMERO</h1>
-                        <h4 className="text-center pb-3 text-xl font-tutifruti">Vice President</h4>
+                        <h4 className="text-center pb-3 text-lg font-tutifruti">Vice President</h4>
                         <p className="text-center text-sm pb-1 px-4 font-mono">I’m Romina, a Venezuelan artist raised in South Florida. I received a BA in Studio Art from Florida State University, with a focus on photography and printmaking. I am passionate about writing, bookmaking, film photography, mental health, and of course, skating!</p>
                         <p className="text-center text-sm  pb-2 px-4 font-mono">As Vice President of tutifruti, I bring my academic experiences and life experiences to my work in order to lead with integrity, compassion, and intentionality.</p>
                     </div>
                     <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6">
                         <h1 className="text-center text-2xl mt-2 font-tutifruti">ROMINA PALMERO</h1>
-                        <h4 className="text-center pb-3 text-xl font-tutifruti">Vice President</h4>
+                        <h4 className="text-center pb-3 text-lg font-tutifruti">Vice President</h4>
                         <p className="text-center text-sm pb-1 px-4 font-mono">I’m Romina, a Venezuelan artist raised in South Florida. I received a BA in Studio Art from Florida State University, with a focus on photography and printmaking. I am passionate about writing, bookmaking, film photography, mental health, and of course, skating!</p>
                         <p className="text-center text-sm pb-2 px-4 font-mono">As Vice President of tutifruti, I bring my academic experiences and life experiences to my work in order to lead with integrity, compassion, and intentionality.</p>
                     </div>
