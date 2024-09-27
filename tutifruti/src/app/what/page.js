@@ -33,7 +33,7 @@ export default function What() {
                 <div id="pairs" className='px-8 py-4'>
                     <div id="pair1" className="grid grid-rows-6 grid-cols-1 md:grid-rows-2 md:grid-cols-3 gap-6 m-4 min-h-screen">
                         <div className="order-1 row-span-1 col-span-1 relative block">
-                            <Image className="object-cover" src="/gallery/lesson.jpg" fill />
+                            <Image className="object-cover" src="/gallery/arielle.png" fill />
                         </div>
                         <div id="clinics" className="order-2 text-center md:text-left row-span-2 col-span-1 md:row-span-1 md:col-span-2 relative block">
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti mb-2'>Private Lessons</h1>
