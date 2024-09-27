@@ -31,7 +31,7 @@ module.exports = {
         'blue350B' : "url('/gallery/blue350B.png')",
         'blue704' : "url('/gallery/blue704.png')",
         'longBlue' : "url('/gallery/longBlue.svg')",
-        'lotStretch' : "url('/gallery/stretch.png')"
+        'lotStretch' : "url('/gallery/brighter.png')"
       },
       backgroundSize: {
         '3/4': '75%',
