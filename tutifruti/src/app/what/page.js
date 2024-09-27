@@ -4,6 +4,9 @@ import { Footer } from '../components/footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
+//<div id="wt" className='grid grid rows-6 grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-6 m-4 h-1/2'>
+//</div>
+
 export default function What() {
     return (
         <div className='bg-white min-h-screen'>

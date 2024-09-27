@@ -9,34 +9,43 @@ export default function About() {
             <Navbar />
             <div className='flex flex-col min-h-screen mx-auto w-5/6'>
                 <div className='flex flex-col h-screen mx-auto'>
-                    <h1 className="text-center text-4xl font-tutifruti mt-2">Meet Our Team</h1>
-                    <div className="container bg-center bg-longBlue md:bg-blueSquare bg-no-repeat bg-contain p-8 h-5/6 mx-auto">
-                        <div className='flex flex-col md:flex-row h-full md:h-5/6 p-6 md:mt-10 gap-6 md:gap-4 mx-auto'>
-                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/3 p-4 md:p-6">
-                                <div className='relative block h-3/4 md:h-2/3 mx-auto'>
-                                    <Image className="object-cover" src="/gallery/isa.png" fill />
+                    <h1 className="text-center text-5xl font-tutifruti mt-2">Meet Our Team</h1>
+                    <div className="container bg-center bg-longBlue md:bg-blueSquare bg-no-repeat bg-contain h-full p-8 mx-auto mt-6 mb-10">
+                        <div className='flex flex-col md:flex-row h-full md:h-5/6 p-2 md:p-6 md:mt-14 gap-4 mx-auto'>
+                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-2 md:p-6">
+                                <div className='relative block h-2/3 mx-auto'>
+                                    <Image className="object-contain md:object-cover" src="/gallery/isa.png" fill />
                                 </div>
-                                <h1 className="text-center text-2xl font-tutifruti">ISA OSTOS</h1>
-                                <h4 className="text-center text-xl font-tutifruti">Co-Director</h4>
+                                <h1 className="text-center text-lg md:text-2xl font-tutifruti">ISA <br className='invisible md:visible'/>OSTOS</h1>
+                                <h4 className="text-center text-md md:text-xl font-tutifruti">Co-Director</h4>
                             </div>
-                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/3 p-4 md:p-6">
-                                <div className='relative block h-3/4 md:h-2/3 mx-auto'>
-                                    <Image className="object-cover" src="/gallery/romina.png" fill />
+                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-2 md:p-6">
+                                <div className='relative block h-2/3 mx-auto'>
+                                    <Image className="object-contain md:object-cover" src="/gallery/romina.png" fill />
                                 </div>
-                                <h1 className="text-center text-2xl font-tutifruti">ROMINA PALMERO</h1>
-                                <h4 className="text-center text-xl font-tutifruti">Co-Director</h4>
+                                <h1 className="text-center text-lg md:text-2xl font-tutifruti">ROMINA PALMERO</h1>
+                                <h4 className="text-center text-md md:text-xl font-tutifruti">Co-Director</h4>
                             </div>
-                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/3 p-4 md:p-6">
-                                <div className='relative block h-3/4 md:h-2/3 mx-auto'>
-                                    <Image className="object-cover" src="/gallery/thania.png" fill />
+                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-2 md:p-6">
+                                <div className='relative block h-2/3 mx-auto'>
+                                    <Image className="object-contain md:object-cover" src="/gallery/thania.png" fill />
                                 </div>
-                                <h1 className="text-center text-2xl font-tutifruti">THANIA SEGURA</h1>
-                                <h4 className="text-center text-xl font-tutifruti">Board Member</h4>
+                                <h1 className="text-center text-lg md:text-2xl font-tutifruti">THANIA SEGURA</h1>
+                                <h4 className="text-center text-md md:text-xl font-tutifruti">Board Member</h4>
+                            </div>
+                            <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-4 md:p-8">
+                                <div className='relative block h-2/3 mx-auto'>
+                                    <Image className="object-contain md:object-cover" src="/gallery/susan.png" fill />
+                                </div>
+                                <h1 className="text-center text-lg md:text-2xl font-tutifruti">SUSAN <br className='invisible md:visible'/>LEE-CHUN</h1>
+                                <h4 className="text-center text-md md:text-xl font-tutifruti">Board Member</h4>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h1 className='font-tutifruti text-4xl text-center mb-4'>Volunteers</h1>
+                <div className='text-center text-4xl font-tutifruti my-4 w-full'>
+                    <Image className="object-cover mx-auto justify-between" src="/gallery/volunteers.png" alt="Volunteers" width={400} height={200} />
+                </div>
                 <p className='mx-auto text-center text-md mb-8'>MIA = Miami | BRO = Broward | WPB = West Palm Beach</p>
                 <div id="volGrid" className='min-h-screen w-5/6 md:aspect-square mx-auto grid grid-cols-1 grid-rows-9 gap-6 md:grid-cols-3 md:grid-rows-3 mb-8'>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
