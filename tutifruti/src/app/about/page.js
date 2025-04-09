@@ -53,26 +53,18 @@ export default function About() {
                             <Image className="rounded-full object-cover" src="/volunteers/star.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Star</p>
-                        <p className='mx-auto text-center text-lg'>Social Media Coordinator & Skate Coach</p>
+                        <p className='mx-auto text-center text-lg'>Skate Coach & Social Media Coordinator</p>
                         <p className='mx-auto text-center text-lg'>MIA, BRO, & WPB</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/shirley.jpg" fill />
+                            <Image className="rounded-full object-cover" src="/volunteers/clara.jpg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Shirley</p>
-                        <p className='mx-auto text-center text-lg'>Photographer</p>
-                        <p className='mx-auto text-center text-lg'>BRO</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Clara</p>
+                        <p className='mx-auto text-center text-lg'>Skate Coach</p>
+                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
                     </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
-                        <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/violet.JPG" fill />
-                        </div>
-                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Violet</p>
-                        <p className='mx-auto text-center text-lg'>Photographer</p>
-                        <p className='mx-auto text-center text-lg'>WPB</p>
-                    </div>
-                    <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
                             <Image className="rounded-full object-cover" src="/volunteers/rozy.jpg" fill />
                         </div>
@@ -80,21 +72,29 @@ export default function About() {
                         <p className='mx-auto text-center text-lg'>Skate Coach</p>
                         <p className='mx-auto text-center text-lg'>WPB</p>
                     </div>
+                    <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
+                        <div className='relative h-1/2 w-1/2 mx-auto'>
+                            <Image className="rounded-full object-cover" src="/volunteers/luck.JPG" fill />
+                        </div>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Luck</p>
+                        <p className='mx-auto text-center text-lg'>Social Media Coordinator</p>
+                        <p className='mx-auto text-center text-lg'>MIA</p>
+                    </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/ashley.png" fill />
+                            <Image className="rounded-full object-cover" src="/volunteers/mel.jpeg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ashley</p>
-                        <p className='mx-auto text-center text-lg'>Lead Skate Coach</p>
-                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Mel</p>
+                        <p className='mx-auto text-center text-lg'>Social Media Coordinator</p>
+                        <p className='mx-auto text-center text-lg'>MIA</p>
                     </div>
                     <div className='bg-darkblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/mari.png" fill />
+                            <Image className="rounded-full object-cover" src="/volunteers/faith.jpg" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Mari</p>
-                        <p className='mx-auto text-center text-lg'>Event & Program Facilitator</p>
-                        <p className='mx-auto text-center text-lg'>MIA, BRO, & WPB</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
+                        <p className='mx-auto text-center text-lg'>Web Developer & <br />Skate Coach</p>
+                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
@@ -114,11 +114,11 @@ export default function About() {
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/faith.jpg" fill />
+                            <Image className="rounded-full object-cover" src="" fill />
                         </div>
-                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
-                        <p className='mx-auto text-center text-lg'>Software Developer & Website Administrator</p>
-                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
+                        <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'></p>
+                        <p className='mx-auto text-center text-lg'></p>
+                        <p className='mx-auto text-center text-lg'></p>
                     </div>
                 </div>
             </div>
