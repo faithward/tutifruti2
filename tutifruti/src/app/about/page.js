@@ -94,7 +94,7 @@ export default function About() {
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
                         <p className='mx-auto text-center text-lg'>Web Developer & <br />Skate Coach</p>
-                        <p className='mx-auto text-center text-lg'>MIA & BRO</p>
+                        <p className='mx-auto text-center text-lg'>MIA, BRO, & WPB</p>
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
