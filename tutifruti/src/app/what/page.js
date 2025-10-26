@@ -13,11 +13,10 @@ export default function What() {
             <Navbar />
             <div className='w-100 h-full text-black'>
                 <div id="topSection" className='w-full flex flex-col bg-yellow mx-auto justify-center p-6'>
-                    <h1 className="text-5xl my-8 text-center font-tutifruti">What We Do</h1>
                     <div className='w-full h-full text-center px-2 mx-auto gap-4 md:gap-8 flex md:flex-row flex-col'>
                         <div className='md:w-1/3'>
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti'>Mission</h1>
-                            <p className='p-4 text-lg'>To educate on and advocate for the importance of mental health through skateboarding, rollerskating, and creative arts.</p>
+                            <p className='p-4 text-lg'>Tutifruti promotes mental health and physical wellness in disenfranchised communities through movement and art.</p>
                         </div>
                         <div className='md:w-1/3'>
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti'>Vision</h1>
@@ -25,7 +24,7 @@ export default function What() {
                         </div>
                         <div className='md:w-1/3'>
                             <h1 className='text-2xl underline underline-offset-4 font-tutifruti'>Values</h1>
-                            <p className='p-4 text-lg'>We value integrity, education, and inclusivity, by providing opportunities to participate, learn, and collaborate with your local skate and art communities.</p>
+                            <p className='p-4 text-lg'>We value integrity, education, and inclusivity, by providing opportunities to participate, learn, and collaborate with your local community.</p>
                         </div>
                     </div>
                     <Link id="privateLessons" className="mx-auto mt-6" target="_blank" href="https://linktr.ee/tutifruti.sk8?lt_utm_source=lt_share_link#302007025"><Image alt="support us" src="supportusbutton.svg" width={180} height={90} /></Link>
@@ -56,7 +55,7 @@ export default function What() {
                             <p className='text-xl'>Community skate events are opportunities for Tutifruti to “take over a skatepark” and give back to the community. These are structured as a social meet up where people show up and skate, make art, and meet new people. Our community events are centered around women, BIPOC, and LGBTQ+ individuals, but all ages and identities are welcome. We often host giveaways at our community events, thanks to our generous partners!</p>
                         </div>
                         <div className="order-4 text-center md:text-left md:order-3 row-span-2 col-span-1 md:row-span-1 md:col-span-2 relative block">
-                            <h1 className='text-2xl underline underline-offset-4 font-tutifruti mb-2'>Creative Art Workshops</h1>
+                            <h1 className='text-2xl underline underline-offset-4 font-tutifruti mb-2'>Creative Art Programs</h1>
                             <p className='text-xl'>One of our main goals in Tutifruti is to encourage diverse coping mechanisms or emotional outlets, and creative art is an incredible way to learn valuable skills in mental health. We conduct low cost, accessible art workshops that teach unique techniques and mediums for all ages. From screenprinting to bookmaking, block printing to painting, we utilize the arts as a vehicle for emotional wellness, creative expression, and self-esteem.</p>
                         </div>
                         <div className="order-3 md:order-4 row-span-1 col-span-1 relative block">
