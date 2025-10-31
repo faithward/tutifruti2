@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Contact() {
     return (
         <>
-            <div className="bg-lightblue lg:bg-contain bg-cover bg-no-repeat bg-skaterguy bg-right-bottom">
+            <div className="bg-lightblue lg:bg-contain bg-cover bg-no-repeat bg-skaterguy bg-bottom-right">
                 <Navbar />
                 <div className="min-h-screen mt-8">
                     <h1 className="text-4xl mt-2 text-center font-tutifruti">Contact Us</h1>
