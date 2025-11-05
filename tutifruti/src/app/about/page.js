@@ -14,28 +14,28 @@ export default function About() {
                         <div className='flex flex-col md:flex-row h-full md:h-5/6 p-2 md:p-6 md:mt-14 gap-4 mx-auto'>
                             <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-2 md:p-6">
                                 <div className='relative block h-2/3 mx-auto'>
-                                    <Image className="object-contain md:object-cover" src="/gallery/isa.png" fill />
+                                    <Image className="object-contain md:object-cover" alt="An Isa Doodle" src="/gallery/isa.png" fill />
                                 </div>
                                 <h1 className="text-center text-lg md:text-2xl font-tutifruti">ISA <br className='invisible md:visible'/>OSTOS</h1>
                                 <h4 className="text-center text-md md:text-xl font-tutifruti">Co-Director</h4>
                             </div>
                             <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-2 md:p-6">
                                 <div className='relative block h-2/3 mx-auto'>
-                                    <Image className="object-contain md:object-cover" src="/gallery/romina.png" fill />
+                                    <Image className="object-contain md:object-cover" alt="A Romina Doodle" src="/gallery/romina.png" fill />
                                 </div>
                                 <h1 className="text-center text-lg md:text-2xl font-tutifruti">ROMINA PALMERO</h1>
                                 <h4 className="text-center text-md md:text-xl font-tutifruti">Co-Director</h4>
                             </div>
                             <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-2 md:p-6">
                                 <div className='relative block h-2/3 mx-auto'>
-                                    <Image className="object-contain md:object-cover" src="/gallery/thania.png" fill />
+                                    <Image className="object-contain md:object-cover" alt="A Thania Doodle" src="/gallery/thania.png" fill />
                                 </div>
                                 <h1 className="text-center text-lg md:text-2xl font-tutifruti">THANIA SEGURA</h1>
                                 <h4 className="text-center text-md md:text-xl font-tutifruti">Board Member</h4>
                             </div>
                             <div className="bg-tan border-2 border-solid border-darkblue rounded-lg w-5/6 h-full mx-auto md:w-1/4 p-4 md:p-8">
                                 <div className='relative block h-2/3 mx-auto'>
-                                    <Image className="object-contain md:object-cover" src="/gallery/susan.png" fill />
+                                    <Image className="object-contain md:object-cover" alt="A Susan Doodle" src="/gallery/susan.png" fill />
                                 </div>
                                 <h1 className="text-center text-lg md:text-2xl font-tutifruti">SUSAN <br className='invisible md:visible'/>LEE-CHUN</h1>
                                 <h4 className="text-center text-md md:text-xl font-tutifruti">Board Member</h4>
@@ -46,11 +46,10 @@ export default function About() {
                 <div className='text-center text-4xl font-tutifruti my-4 w-full'>
                     <Image className="object-cover mx-auto justify-between" src="/gallery/volunteers.png" alt="Volunteers" width={400} height={200} />
                 </div>
-                <p className='mx-auto text-center text-md mb-8'>MIA = Miami | BRO = Broward | WPB = West Palm Beach</p>
                 <div id="volGrid" className='min-h-screen w-5/6 md:aspect-square mx-auto grid grid-cols-1 grid-rows-9 gap-6 md:grid-cols-3 md:grid-rows-3 mb-8'>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/star.jpg" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/star.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Star</p>
                         <p className='mx-auto text-center text-lg'>Skate Coach & <br />Social Media Coordinator</p>
@@ -58,7 +57,7 @@ export default function About() {
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/clara.jpg" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/clara.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Clara</p>
                         <p className='mx-auto text-center text-lg'>Skate Coach</p>
@@ -66,7 +65,7 @@ export default function About() {
                     </div>
                     <div className='bg-darkblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/rozy.jpg" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/rozy.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Rozy</p>
                         <p className='mx-auto text-center text-lg'>Skate Coach</p>
@@ -74,7 +73,7 @@ export default function About() {
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/luck.JPG" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/luck.JPG" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Luck</p>
                         <p className='mx-auto text-center text-lg'>Social Media Coordinator</p>
@@ -82,7 +81,7 @@ export default function About() {
                     </div>
                     <div className='bg-lightblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/mel.jpeg" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/mel.jpeg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Mel</p>
                         <p className='mx-auto text-center text-lg'>Social Media Coordinator</p>
@@ -90,7 +89,7 @@ export default function About() {
                     </div>
                     <div className='bg-darkred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/faith.jpg" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/faith.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Faith</p>
                         <p className='mx-auto text-center text-lg'>Web Developer & <br />Skate Coach</p>
@@ -98,7 +97,7 @@ export default function About() {
                     </div>
                     <div className='bg-darkblue aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/ailish.PNG" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/ailish.PNG" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ailish</p>
                         <p className='mx-auto text-center text-lg'>Photographer</p>
@@ -106,7 +105,7 @@ export default function About() {
                     </div>
                     <div className='bg-lightred aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/ana.JPG" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/ana.JPG" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Ana</p>
                         <p className='mx-auto text-center text-lg'>Event & Program Facilitator</p>
@@ -114,7 +113,7 @@ export default function About() {
                     </div>
                     <div className='bg-tan aspect-square row-span-1 col-span-1 p-4'>
                         <div className='relative h-1/2 w-1/2 mx-auto'>
-                            <Image className="rounded-full object-cover" src="/volunteers/sarai.jpg" fill />
+                            <Image className="rounded-full object-cover" alt="An image of" src="/volunteers/sarai.jpg" fill />
                         </div>
                         <p className='font-tutifruti mx-auto text-center pt-2 text-2xl'>Sarai</p>
                         <p className='mx-auto text-center text-lg'>Event & Program Facilitator</p>

@@ -19,7 +19,7 @@ function App() {
           <Link href="/what/#events" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350 md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
             <h1 className='pt-3 lg:pt-1'>Community Events</h1>
             <div className='relative block h-full m-4 md:max-lg:w-5/6 md:max-lg:mx-auto'>
-              <Image className="object-cover w-full" src="/gallery/justice.png" alt="Whoops! Something went wrong." />
+              <Image className="object-cover w-full" src="/gallery/justice.png" alt="Banner Image" />
             </div>
           </Link>
           <Link href="/what/#clinics" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350B md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
