@@ -15,7 +15,7 @@ export const Navbar = () => {
         </Link>
         <div className="w-4/6 flex justify-center">
           <ul className="flex body-font text-center items-center gap-7">
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/what">Our Work</Link></li>
+            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/work">Our Work</Link></li>
             <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/team">Our Team</Link></li>
             <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/contact">Contact</Link></li>
             <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/shop">Shop</Link></li>

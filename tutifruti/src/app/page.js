@@ -16,22 +16,22 @@ function App() {
         </div>
         <p className='mx-auto mt-4 mb-2 text-2xl w-3/4 text-center text-black p-2'>Welcome to <strong className='text-bold text-2xl text-black'>Tutifruti,</strong> where we blend movement and creative arts to champion the cause of mental health education and advocacy. We host a spectrum of experiences throughout <strong className='text-bold text-2xl text-black'>Miami-Dade, Broward, and Palm Beach counties.</strong> We stand firm in embracing and empowering diverse demographics, especially <strong className='text-bold text-2xl text-black'>women, girls, BIPOC, and LGBTQ+</strong> individuals. Join us on this transformative journey, where every contribution fuels a brighter, more mentally resilient world!</p>
         <div className='font-tutifruti text-3xl w-full my-4 mx-auto justify-between flex flex-col gap-2 h-fit px-8 lg:px-12 lg:h-screen lg:flex-row'>
-          <Link href="/what/#events" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350 md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
-            <h1 className='pt-3 lg:pt-1'>Community Events</h1>
+          <Link href="/work/#move" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350 md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
+            <h1 className='pt-3 lg:pt-1'>Movement</h1>
             <div className='relative block h-full m-4 md:max-lg:w-5/6 md:max-lg:mx-auto'>
-              <Image className="object-cover w-full" src="/gallery/justice.png" alt="Banner Image" />
+              <Image className="object-cover w-full" src="/gallery/movementHome.jpg" alt="Skatepark image" fill />
             </div>
           </Link>
-          <Link href="/what/#clinics" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350B md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
-            <h1 className='pt-3 lg:pt-1'>Skate Clinics</h1>
+          <Link href="/work/#art" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350B md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
+            <h1 className='pt-3 lg:pt-1'>Art</h1>
             <div className='relative block h-full m-6 md:max-lg:w-5/6 md:max-lg:mx-auto'>
-              <Image className="object-cover" src="/gallery/skateflower.jpg" fill />
+              <Image className="object-cover" src="/gallery/artHome.jpg" alt="Photography activity image" fill />
             </div>
           </Link>
-          <Link href="/what/#privateLessons" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350 md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
-            <h1 className='pt-3 lg:pt-1'>Private Lessons</h1>
+          <Link href="/work/#mental" className='text-center w-full lg:w-1/3 p-6 lg:p-14 h-128 flex flex-col justify-between bg-blue350 md:max-lg:bg-blue704 bg-contain bg-no-repeat bg-center'>
+            <h1 className='pt-3 lg:pt-1'>Mental Health</h1>
             <div className='relative block h-full m-6 md:max-lg:w-5/6 md:max-lg:mx-auto'>
-              <Image className="object-cover" src="/gallery/skatergirl.jpg" fill />
+              <Image className="object-cover" src="/gallery/hugHome.jpg" alt="Hug image" fill />
             </div>
           </Link>
         </div>
