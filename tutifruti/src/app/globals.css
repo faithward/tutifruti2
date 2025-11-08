@@ -1,30 +1,30 @@
-@import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 @font-face {
-  font-family: TUTIFRUTI;
-  src: url("tutifrutifontver3.ttf");
+  font-family: tutifruti;
+  font-style: normal;
+  font-display: swap;
+  src: url('/tutifruti/public/fonts/tutifrutifontver3.ttf') format(ttf);
 }
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: Nunito_Sans;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import 'tailwindcss';
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@theme {
+      --color-lightblue: oklch(0.8226 0.0586 200.17);
+      --color-darkblue: oklch(0.6486 0.0478 199.59);
+      --color-lightred: oklch(0.6016 0.1389 27.38);
+      --color-darkred: oklch(0.464 0.0919 27.43);
+      --color-yellow: oklch(0.8482 0.141 86.04);
+      --color-brown: oklch(0.5443 0.0919 86.95);
+      --color-tan: oklch(0.8084 0.0541 87.88);
+      --color-white: oklch(1 0 0);
+      --color-black: oklch(0.1515 0.0088 18.17);
+      --font-tutifruti: "tutifruti", "cursive";
+      --font-default: "Nunito_Sans", "sans-serif";
 }

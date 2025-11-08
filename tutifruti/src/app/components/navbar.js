@@ -15,14 +15,14 @@ export const Navbar = () => {
         </Link>
         <div className="w-4/6 flex justify-center">
           <ul className="flex body-font text-center items-center gap-7">
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/work">Our Work</Link></li>
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/team">Our Team</Link></li>
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/contact">Contact</Link></li>
-            <li><Link className="hover:text-lightred text-black font-tutifruti transition-colors text-md md:text-lg" href="/shop">Shop</Link></li>
+            <li><Link className="hover:text-lightred text-black transition-colors text-md md:text-lg" href="/work">Our Work</Link></li>
+            <li><Link className="hover:text-lightred text-black transition-colors text-md md:text-lg" href="/team">Our Team</Link></li>
+            <li><Link className="hover:text-lightred text-black transition-colors text-md md:text-lg" href="/contact">Contact</Link></li>
+            <li><Link className="hover:text-lightred text-black transition-colors text-md md:text-lg" href="/shop">Shop</Link></li>
           </ul>
         </div>
         <div className="w-1/6 flex justify-end">
-          <Link className="hover:text-darkblue transition-colors font-mono pr-1" target="blank" href="https://www.instagram.com/tutifruti.sk8/"><Image src="/instagram.svg" alt="Instagram" width={30} height={30} /></Link></div>
+          <Link className="hover:text-darkblue transition-colors font-mono pr-1" target="blank" href="https://www.instagram.com/tutifruti.fl/"><Image src="/instagram.svg" alt="Instagram" width={30} height={30} /></Link></div>
       </div>
     </nav>
   );
